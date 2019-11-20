@@ -1,0 +1,31 @@
+{
+    "project": {
+        "name": "linbox",
+        "version": "1.0.0",
+        "description": "",
+        "copyright": "",
+        "main_package": "github.com/shizonic/go-linbox/cmd/linbox"
+    },
+    "build": {
+        "output_path": "build",
+        "ld_flags": [
+            "-s",
+            "-w"
+        ],
+        "ld_flags_darwin": [],
+        "ld_flags_linux": [],
+        "ld_flags_windows": [],
+        "extra_args": [
+            "-trimpath"
+        ]
+    },
+    "package": {
+        "include_readme": true
+    },
+    "run": {
+        "environ": {}
+    },
+    "test": {
+        "extra_args": []
+    }
+}
